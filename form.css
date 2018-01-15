@@ -1,0 +1,32 @@
+body
+{
+	background-image: url(cr.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 900px;
+}
+.simple-form
+{
+  text-align: center;
+  margin: 100px 480px;
+}
+#registration
+{
+	width: 50%;
+	background-color: white;
+	opacity: 0.8;
+	padding: 50px 100px 150px;
+}
+#butt
+{
+    color:black;
+    font-size: 20px;
+	
+}
+#atas
+{
+    color: black;
+	font-family: 'Joti One', cursive;
+	font-size: 32px;
+	background-color: white;
+	opacity: 0.8;
+}	

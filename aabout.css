@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+	background: url(madrid.jpg);
+	-webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
+}
+#img-container {
+    width: 1200px;
+    margin: 0px auto;
+}
+#content {
+    column-count: 4;
+    column-gap: 10px;
+	list-style: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#content li img {
+    margin: 1;
+    width: 350px;
+	height: 300px;
+    display: block;
+	list-style: none;	
+}
+h1
+{
+	font-size: 22;
+	color: white;
+	position: absolute;
+	margin-left: 41px;
+	top: -15px;
+	left:0;
+	width: 23.7%;
+	height: 100%;
+	background-color: grey;
+	transition: .5s;
+	opacity:0.9;
+}
+h2
+{
+	font-size: 22;
+	color: white;
+	position: absolute;
+	margin: 10px 357px;
+	top: -10px;
+	left:44;
+	width: 23.8%;
+	height: 100%;
+	background-color: grey;
+	transition: .5s;
+	opacity:0.9;
+}
+h3
+{
+	font-size: 22;
+	color: white;
+	position: absolute;
+	margin-left: 765px;
+	top: -22px;
+	left:0;
+	width: 23.7%;
+	height: 100%;
+	background-color: grey;
+	transition: .5s;
+	opacity:0.9;
+}
+h4
+{
+	font-size: 22;
+	color: white;
+	position: absolute;
+	margin-left: 1126px;
+	top: -29px;
+	left:0;
+	width: 23.7%;
+	height: 100%;
+	opacity:0.9;
+	background-color: grey;
+	transition: .5s;
+}
+/* ---------------------  HOVER EFFECTS  --------------------- */
+
+h1:hover {
+    opacity: 0.5;
+}
+h2:hover {
+    opacity: 0.5;
+}
+h3:hover {
+    opacity: 0.5;
+}
+h4:hover {
+    opacity: 0.5;
+}
